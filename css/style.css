@@ -405,6 +405,11 @@ header {
   position: relative;
 }
 .stories-content p {
+  color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
   margin-top: 50px;
 }
 .stories-date {

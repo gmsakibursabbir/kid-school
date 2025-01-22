@@ -229,7 +229,7 @@ header {
 /* curriculum start */
 #curriculum {
   background-image: url(../assets/bg.png);
-  background-size: object-fit;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -266,7 +266,7 @@ header {
   position: relative;
   display: inline-block;
 }
-.card-btn::after{
+.card-btn::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -276,13 +276,13 @@ header {
   left: 0;
   transition: transform 0.25s ease-out;
 }
-.card-btn:hover::after{
-transform: scaleX(1);
+.card-btn:hover::after {
+  transform: scaleX(1);
 }
-.card-btn-color-blue  {
+.card-btn-color-blue {
   color: rgb(100, 200, 255);
 }
-.card-btn-color-blue::after  {
+.card-btn-color-blue::after {
   background-color: rgb(100, 200, 255);
 }
 .card-btn-color-orange {
@@ -385,7 +385,7 @@ transform: scaleX(1);
 #stories {
   background: url(../assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-  background-size: object-fit;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .stories-wrapper {
@@ -509,7 +509,7 @@ footer {
   margin-top: 32px;
   gap: 10px;
 }
-.infiniti-scroll{
+.infiniti-scroll {
   padding: 10px 0;
   font-size: 14px;
   font-weight: 600;

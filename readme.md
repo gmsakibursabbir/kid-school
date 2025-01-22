@@ -55,7 +55,6 @@
 - **Responsiveness**:
   - Mobile: Cards will displayed in two columns.
 
-
 ### 5. Footer
 
 - **Structure**:
@@ -77,7 +76,9 @@
 - hide arrow button group  from the statndard curriculam section.
 
 ### Explore Marquee & Use It
+
 - Explore Marquee Tag. use it anywhere in your homepage. make sure marquee is working.
+
 ---
 
 # Technology
@@ -89,8 +90,8 @@
 
 # What to Submit
 
-- Your Github Repository . ex.("https://github.com/Repo-name")
-- Your Live Link. ex.(https://user.github.io/Repo-name/)
+- 🦑Github Repo: https://github.com/gmsakibursabbir/kid-school
+- 🟢Live Link: https://gmsakibursabbir.github.io/kid-school/
 
 ---
 
@@ -102,6 +103,6 @@
 
 # Design for Small Device
 
- <img src="https://i.ibb.co.com/XpfS2bb/i-Phone-13-14-1.png"/>
+<img src="https://i.ibb.co.com/XpfS2bb/i-Phone-13-14-1.png"/>
 
 ---

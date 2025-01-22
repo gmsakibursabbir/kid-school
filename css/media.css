@@ -1,0 +1,239 @@
+/* 992px */
+@media only screen and (max-width: 992px) {
+  .hidden-lg {
+    display: none;
+  }
+  .hidden-xl {
+    display: inline-block;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .curriculum-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .main-storis {
+    display: none;
+  }
+  .stories-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* 	≥768px */
+@media only screen and (max-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+  .flex-row-reverse-md {
+    flex-direction: row-reverse;
+  }
+  .flex-column-reverse-md {
+    flex-direction: column-reverse;
+  }
+  .w-60 {
+    width: 100%;
+  }
+  .w-40 {
+    width: 100%;
+  }
+  .p-60 {
+    padding: 40px 0;
+  }
+  .pt-80 {
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  h4 {
+    font-size: 16.6px;
+    line-height: 20.75px;
+  }
+  header {
+    padding: 12px 0;
+    border-bottom: 0.5px solid var(--orange-color);
+  }
+  .logo img {
+    width: 46px;
+    height: 46px;
+  }
+  #hero {
+    padding: 20px 0;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 18px 0 18px;
+  }
+  .hero-wrapper {
+    gap: 20px;
+  }
+  .hero-btn-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-btn-cover .hero-btn {
+    width: 131px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .curriculum-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .card-item {
+    padding: 36px 28px;
+    text-align: center;
+    gap: 22px;
+  }
+  .card-item p {
+    color: rgb(128, 128, 128);
+    font-size: 10.22px;
+    font-weight: 500;
+    line-height: 19.16px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .navigation {
+    display: none;
+  }
+  .card-img img {
+    width: 92.6px;
+    height: 92.6px;
+  }
+  .card-btn {
+    font-size: 10.22px;
+    font-weight: 700;
+    line-height: 19.16px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .stories-content-min {
+    padding: 22px 20px;
+  }
+  .stories-content-min h4 {
+    color: rgb(0, 0, 0);
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 6px;
+  }
+  .stories-date-min {
+    position: absolute;
+    top: -20%;
+    padding: 6px 12px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 9.13px;
+    font-weight: 500;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+  }
+  .stories-btn {
+    width: 134px !important;
+    height: 30px !important;
+  }
+  .more-storis {
+    gap: 12px;
+  }
+  footer {
+    padding: 66px 0 60px;
+  }
+  .footer-logo img {
+    max-width: 69px;
+    max-height: 69px;
+  }
+  .footer-logo span {
+    color: rgb(255, 255, 255);
+    font-size: 35.73px;
+    line-height: 33.5px;
+    letter-spacing: 0%;
+  }
+  .footer-logo-main {
+    gap: 8px;
+  }
+  .footer-logo p {
+    max-width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 22px;
+  }
+  .footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 20.35px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .footer-link .links {
+    margin-top: 27px;
+    gap: 17px;
+  }
+  .footer-social .social-links {
+    margin-top: 27px;
+    gap: 8px;
+  }
+  .footer-link .links li a {
+    font-size: 16.96px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .social-links li a img {
+    width: 33.91px;
+    height: 33.91px;
+  }
+}
+/* 576px */
+@media only screen and (max-width: 576px) {
+  .curriculum-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .stories-date-min {
+    top: -15%;
+  }
+}
+/* 425px */
+@media only screen and (max-width: 425px) {
+  .curriculum-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .stories-date-min {
+    top: -22%;
+  }
+}
